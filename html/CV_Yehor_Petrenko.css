@@ -1,0 +1,20 @@
+/* Обертка для кнопок */
+.button-wrapper {
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение кнопок по ширине */
+    margin-top: 20px; /* Добавляем немного отступа сверху */
+}
+
+/* Стилизация кнопок */
+.button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    flex: 1; /* Распределяет пространство между кнопками равномерно */
+    margin: 0 5px; /* Добавляем немного отступа между кнопками */
+}
